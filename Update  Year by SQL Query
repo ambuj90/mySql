@@ -1,0 +1,4 @@
+UPDATE `wp_posts`
+SET post_date="2024-02-14 20:31:30", post_status="publish"
+WHERE post_date BETWEEN '2010-01-01 00:00:00' AND '2023-1-1 00:00:00'
+AND post_type = "post"
